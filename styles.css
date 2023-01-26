@@ -1,9 +1,8 @@
-.holder{
-	display:flex;
-	flex-flow: row wrap;
+.holder {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.holder div{
-    width:100px;
-	height:100px;
+.item {
+  flex: 0 0 auto;
 }
-/* Your CSS Code here. */
